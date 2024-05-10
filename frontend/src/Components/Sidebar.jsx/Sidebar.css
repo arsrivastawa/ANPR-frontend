@@ -1,0 +1,88 @@
+.sidebar {
+border-left: 1px solid rgb(165, 165, 165);
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 2rem;
+  right: 0%;
+}
+
+.filter-btn > button {
+  cursor: pointer;
+  background-color: #dde6ed;
+  transition: 0.2s;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  height: 100%;
+}
+
+.filter-btn > button:hover {
+  background-color: #9db2bf;
+}
+
+.searchbox-container {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchbox-button {
+  cursor: pointer;
+  background-color: #dde6ed;
+  padding: 10px;
+  transition: 0.2s;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.searchbox-button:hover {
+  background-color: #9db2bf;
+}
+
+.searchbox-container > input {
+  width: 50%;
+  outline: none;
+  border-radius: 10px 0px 0px 10px;
+  padding-inline: 12px;
+  padding-block: 12px;
+  border: none;
+}
+
+.searchbox-container > input:focus {
+  outline: none;
+  border: none;
+}
+
+.search-filter-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.num {
+  background-color: #dde6ed;
+  margin-block: 10px;
+  width: 100%;
+  padding-inline: 12px;
+  padding-block: 12px;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.num:hover {
+  background-color: #9db2bf;
+}
+
+.sidebar-link {
+  color: #150101;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-link:hover {
+  color: #666;
+}
