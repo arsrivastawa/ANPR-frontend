@@ -15,14 +15,18 @@ function CameraStreamContainer() {
         <>
           <div
             style={{
-              width: "75%",
-              height: "100%",
+              width: "55%",
+              height: "80%",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              color: "white",
+              flexDirection: "column",
+              backgroundColor: "black",
             }}
           >
-            Please, Turn on the Video
+            <i class="text-8xl bi bi-camera-video-off-fill"></i>
+            <div>Please, Turn on the Video</div>
           </div>
         </>
       )}

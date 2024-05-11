@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Dashboard from "./components/Dashboard/Dashboard";
 import CameraStreamContainer from "./components/CameraStream/CameraStreamContainer";
 import Navbar from "./components/Dashboard/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <CameraStreamContainer />
         <Sidebar />
       </div>
+      <Footer />
     </>
   );
 }
