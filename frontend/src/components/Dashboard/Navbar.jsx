@@ -7,7 +7,7 @@ function Navbar() {
         <div className='navbar'>
             <div className='logo'>
                 <i class="fa fa-bars" aria-hidden="true"></i>
-                <h3>ANPR</h3>
+                <h3>KAVACH-ANPR</h3>
             </div>
             <Timer />
             <div className='User'>

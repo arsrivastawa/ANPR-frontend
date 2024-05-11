@@ -45,7 +45,7 @@ const CameraStream = () => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
-      <video style={{ width: "75%" }} ref={videoRef} autoPlay />
+      <video style={{ width: "55%" }} ref={videoRef} autoPlay />
     </div>
   );
 };
