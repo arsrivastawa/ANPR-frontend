@@ -1,6 +1,6 @@
 .sidebar {
   border-left: 1px solid #a5a5a5;
-  position: fixed;
+  position: absolute;
   width: 250px;
   height: 100%;
   background-color: #ffffff;
@@ -65,6 +65,7 @@
 
 .num {
   background-color: #dde6ed;
+  display: flex;
   margin-block: 10px;
   width: 100%;
   padding-inline: 12px;
@@ -76,6 +77,7 @@
 
 .num:hover {
   background-color: #9db2bf;
+  scale: 1.05;
 }
 
 .sidebar-link {
