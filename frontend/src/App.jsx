@@ -2,15 +2,18 @@ import React from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Dashboard from "./components/Dashboard/Dashboard";
-import CameraStream from "./components/CameraStream/CameraStream";
 import CameraStreamContainer from "./components/CameraStream/CameraStreamContainer";
+import Navbar from "./components/Dashboard/Navbar";
 
 function App() {
   return (
     <>
-      <Dashboard />
-      <CameraStreamContainer />
-      <Sidebar />
+      <Navbar />
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <Dashboard />
+        <CameraStreamContainer />
+        <Sidebar />
+      </div>
     </>
   );
 }
