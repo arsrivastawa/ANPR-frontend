@@ -10,13 +10,14 @@ function Sidebar() {
         <div className='sidebar'>
             <div className='search-filter-container'>
                 <div className='searchbox-container'>
-                    <input name='vehicleNumber' placeholder='Enter vehicle number' type="text" /><button className='searchbox-button'>Search</button>
+                    <input name='vehicleNumber' placeholder='Enter vehicle number' type="text" />
+                    <button className='searchbox-button'><i class="fa fa-search" aria-hidden="true"></i></button>
                 </div>
                 <div className='filter-btn'>
-                    <button>Filter</button>
+                    <button><i class="fa fa-filter" aria-hidden="true"></i></button>
                 </div>
             </div>
-            <div>
+            <div className='nums'>
                 <div className='num'>JH-10-0029</div>
                 <div className='num'>MP-05-2345</div>
                 <div className='num'>HR-24-789R</div>
