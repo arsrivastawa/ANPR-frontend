@@ -1,14 +1,14 @@
 .sidebar {
-border-left: 1px solid rgb(165, 165, 165);
+  border-left: 1px solid #a5a5a5;
   position: fixed;
-  width: 300px;
+  width: 250px;
   height: 100%;
   background-color: #ffffff;
-  padding: 2rem;
+  padding: 1rem;
   right: 0%;
 }
 
-.filter-btn > button {
+.filter-btn>button {
   cursor: pointer;
   background-color: #dde6ed;
   transition: 0.2s;
@@ -18,7 +18,7 @@ border-left: 1px solid rgb(165, 165, 165);
   height: 100%;
 }
 
-.filter-btn > button:hover {
+.filter-btn>button:hover {
   background-color: #9db2bf;
 }
 
@@ -41,22 +41,24 @@ border-left: 1px solid rgb(165, 165, 165);
   background-color: #9db2bf;
 }
 
-.searchbox-container > input {
-  width: 50%;
+.searchbox-container>input {
+  width: 100%;
   outline: none;
   border-radius: 10px 0px 0px 10px;
   padding-inline: 12px;
   padding-block: 12px;
   border: none;
+  border: solid 1px #eee;
 }
 
-.searchbox-container > input:focus {
+.searchbox-container>input:focus {
   outline: none;
   border: none;
 }
 
 .search-filter-container {
   display: flex;
+  gap: 10px;
   width: 100%;
   flex-direction: row;
 }
@@ -85,4 +87,8 @@ border-left: 1px solid rgb(165, 165, 165);
 
 .sidebar-link:hover {
   color: #666;
+}
+
+.nums{
+  text-align: center;
 }
