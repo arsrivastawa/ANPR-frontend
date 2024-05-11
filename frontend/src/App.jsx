@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
-import Sidebar from "./Components/Sidebar.jsx/Sidebar";
-import Dashboard from "./Components/Dashboard";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Dashboard from "./components/Dashboard/Dashboard";
+import CameraStream from "./components/CameraStream/CameraStream";
+import CameraStreamContainer from "./components/CameraStream/CameraStreamContainer";
 
 function App() {
   return (
     <>
-      <Sidebar />
       <Dashboard />
-      <h1>Hello World</h1>
+      <CameraStreamContainer />
+      <Sidebar />
     </>
   );
 }

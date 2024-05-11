@@ -14,7 +14,7 @@ function Dashboard() {
             <div className='item'><i class="fa fa-cog" aria-hidden="true"></i><span className='options'>Settings</span></div>
             <div className='item'><i class="fa fa-bell" aria-hidden="true"></i><span className='options'>Notifications</span></div>
             <div className='item'><i class="fa fa-info-circle" aria-hidden="true"></i><span className='options'>Help & Support</span></div>
-            <div className='item'><i class="fa fa-sign-out" aria-hidden="true"></i><span className='options'>Sign Out</span></div>
+            {/* <div className='item'><i class="fa fa-sign-out" aria-hidden="true"></i><span className='options'>Sign Out</span></div> */}
         </div>
     )
 }
