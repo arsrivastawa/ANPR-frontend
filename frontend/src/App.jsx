@@ -7,7 +7,8 @@ import Navbar from "./components/Dashboard/Navbar";
 import Footer from "./components/Footer/Footer";
 // import VideoStream from "./components/VideoStreamer/VideoStreamer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import LiveFeed from "./pages/LiveFeed";
+import LiveFeed from "./pages/LiveFeed/LiveFeed";
+import Analytics from "./pages/Analytics/Analytics";
 
 
 function App() {
@@ -15,8 +16,10 @@ function App() {
     <>
       <Router>
         <Navbar />
+        {/* <Dashboard /> */}
         <Routes>
           <Route path="/" element={<LiveFeed />} />
+          <Route path="/analytics" element={<Analytics />} />
         </Routes>
         <Footer />
       </Router>

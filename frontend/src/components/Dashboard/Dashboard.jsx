@@ -1,23 +1,24 @@
 import React from "react";
 import "./Dashboard.css";
+import { Link } from "react-router-dom";
 
 function Dashboard() {
   return (
     <div id="dashboard">
       {/* <div className='heading'><h2>DASHBOARD</h2></div> */}
 
-      <div className="item">
+      <Link to={"/"} className="item">
         <i class="fa fa-window-restore" aria-hidden="true"></i>
         <span className="options">Live feed</span>
-      </div>
-      <div className="item">
+      </Link>
+      <Link to={"/analytics"} className="item">
         <i class="fa fa-bar-chart" aria-hidden="true"></i>
         <span className="options">Analytics</span>
-      </div>
-      <div className="item">
+      </Link>
+      <Link to={"/settings"} className="item">
         <i class="fa fa-cog" aria-hidden="true"></i>
         <span className="options">Settings</span>
-      </div>
+      </Link>
       <div className="item">
         <i class="fa fa-bell" aria-hidden="true"></i>
         <span className="options">Notifications</span>
