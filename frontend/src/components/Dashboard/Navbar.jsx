@@ -8,6 +8,9 @@ function Navbar() {
       <div className="logo">
         <i class="fa fa-bars" aria-hidden="true"></i>
         <h3>KAVACH-ANPR</h3>
+        <div>
+          
+        </div>
       </div>
       <Timer />
       <div className="User">
