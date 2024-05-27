@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -14,26 +15,26 @@ function Footer() {
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <ul class="text-gray-600 dark:text-gray-400">
+              <ul class="text-black">
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">
+                  <Link to="/" class="hover:underline">
                     Live Feed
-                  </a>
+                  </Link>
                 </li>
                 <li class="mb-4">
-                  <a href="#" class="hover:underline">
+                  <Link to="/analytics" class="hover:underline">
                     Analytics
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
+                  <Link to="/settings" class="hover:underline">
                     Settings
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <ul class="text-gray-600 dark:text-gray-400">
+              <ul class="text-black">
                 <li class="mb-4">
                   <a href="#" class="hover:underline ">
                     Notifications
@@ -50,7 +51,7 @@ function Footer() {
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span class="text-sm text-gray-500 sm:blcktext-black">
             Developed with ❤️ by Team KAVACH
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
